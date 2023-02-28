@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Multibrowser_Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2_Edge(failed)">
+    <parameter name="BrowserName" value="Edge"/>
+    <classes>
+      <class name="POM_With_DDF3.facebookLoginTest">
+        <methods>
+          <include name="verifyUserID"/>
+          <include name="LoginToFacebook"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- POM_With_DDF3.facebookLoginTest -->
+    </classes>
+  </test> <!-- Test2_Edge(failed) -->
+</suite> <!-- Failed suite [Multibrowser_Testing] -->

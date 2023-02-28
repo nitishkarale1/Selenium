@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<include name="profile"/>
+  			<include name="funds"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="TestNG.sample29_grouping1"/>
+      <class name="TestNG.sample30_grouping2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

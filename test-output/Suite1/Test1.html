@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 29 20:25:19 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (248 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.sample4_Annotations.verifyUSerID1()'><b>verifyUSerID1</b><br>Test class: TestNG.sample4_Annotations<br/>
+<a href="#Output-589273327" onClick='toggleBox("Output-589273327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589273327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589273327">
+--running verify UserID1 TC--<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample4_Annotations@35aea049</td></tr>
+<tr>
+<td title='TestNG.sample5_Annotations.verifyUserID2()'><b>verifyUserID2</b><br>Test class: TestNG.sample5_Annotations<br/>
+<a href="#Output-426960147" onClick='toggleBox("Output-426960147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-426960147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-426960147">
+--Running_Verify_UserID2_TC<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample5_Annotations@2f217633</td></tr>
+<tr>
+<td title='TestNG.sample5_Annotations.verifyUserID4()'><b>verifyUserID4</b><br>Test class: TestNG.sample5_Annotations<br/>
+<a href="#Output-88646218" onClick='toggleBox("Output-88646218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-88646218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-88646218">
+--Running_Verify_UserID4_TC<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample5_Annotations@2f217633</td></tr>
+<tr>
+<td title='TestNG.sample5_Annotations.verifyUserID3()'><b>verifyUserID3</b><br>Test class: TestNG.sample5_Annotations<br/>
+<a href="#Output-1640296160" onClick='toggleBox("Output-1640296160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640296160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640296160">
+--Running_Verify_UserID3_TC<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample5_Annotations@2f217633</td></tr>
+<tr>
+<td title='TestNG.sample4_Annotations.verifyUserID4()'><b>verifyUserID4</b><br>Test class: TestNG.sample4_Annotations<br/>
+<a href="#Output-809300666" onClick='toggleBox("Output-809300666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-809300666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-809300666">
+--running verify UserID4 TC--<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample4_Annotations@35aea049</td></tr>
+<tr>
+<td title='TestNG.sample5_Annotations.verifyUserID1()'><b>verifyUserID1</b><br>Test class: TestNG.sample5_Annotations<br/>
+<a href="#Output-1363560175" onClick='toggleBox("Output-1363560175", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1363560175" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363560175">
+--Running Verify UserID1 TC<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample5_Annotations@2f217633</td></tr>
+<tr>
+<td title='TestNG.sample4_Annotations.verifyUserID3()'><b>verifyUserID3</b><br>Test class: TestNG.sample4_Annotations<br/>
+<a href="#Output-2083999882" onClick='toggleBox("Output-2083999882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2083999882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2083999882">
+--running verify UserID3 TC--<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample4_Annotations@35aea049</td></tr>
+<tr>
+<td title='TestNG.sample4_Annotations.verifyUserID2()'><b>verifyUserID2</b><br>Test class: TestNG.sample4_Annotations<br/>
+<a href="#Output-1497377679" onClick='toggleBox("Output-1497377679", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497377679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497377679">
+--running verify UserID2 TC--<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.sample4_Annotations@35aea049</td></tr>
+</table><p>
+</body>
+</html>
